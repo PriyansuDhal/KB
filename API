@@ -1,0 +1,3 @@
+window.addEventListener("deviceorientation", (event) => { console.log("Device Orientation:", event.alpha, event.beta, event.gamma); });
+
+window.addEventListener("devicemotion", (event) { console.log("Device Motion:", event.acceleration.x, event.acceleration.y, event.acceleration.z); });
